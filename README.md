@@ -5,7 +5,7 @@
 ### This repository is an official project of the paper "From Beginner to Master: A Survey for Deep Learning-based Single-Image Super-Resolution".
 
 <p align="center">
-<img src="images/SISR.png" width="400px"/>
+<img src="Images/SISR.png" width="400px"/>
 </p>
 
 ## Abstract
@@ -19,7 +19,7 @@ Due to the pages and time limitation, it is impossible to introduce all SISR met
 ## Taxonomy
 
 <p align="center">
-<img src="images/Framework.png" width="800px"/>
+<img src="Images/Framework.png" width="800px"/>
 </p>
 
 
