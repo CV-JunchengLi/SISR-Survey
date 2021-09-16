@@ -93,13 +93,13 @@ The dual camera has been widely used to estimate depth information. Meanwhile, s
 
 # RECONSTRUCTION RESULTS
 
-PSNR/SSIM comparison of lightweight SISR models (the number of model parameters less than 1000K) on Set5 ($\times 4$), Set14  ($\times 4$), and Urban100 ($\times 4$). Meanwhile, the training datasets and the number of model parameters are provided. Sort by PSNR of Set5 in ascending order. Best results are highlighted.
+PSNR/SSIM comparison of lightweight SISR models (the number of model parameters less than 1000K) on Set5 (x4), Set14 (x4), and Urban100 (x4). Meanwhile, the training datasets and the number of model parameters are provided. Sort by PSNR of Set5 in ascending order. Best results are highlighted.
 
 <p align="center">
 <img src="Images/Lightweight-Results.png" width="1000px"/>
 </p>
 
-PSNR/SSIM comparison of large SISR models (the number of model parameters more than 1M, M=million) on Set5 ($\times 4$), Set14 ($\times 4$), and Urban100 ($\times 4$). Meanwhile, the training datasets and the number of model parameters are provided. Sort by PSNR of Set5 in ascending order. Best results are highlighted.
+PSNR/SSIM comparison of large SISR models (the number of model parameters more than 1M, M=million) on Set5 (x4), Set14 (x4), and Urban100 (x4). Meanwhile, the training datasets and the number of model parameters are provided. Sort by PSNR of Set5 in ascending order. Best results are highlighted.
 
 <p align="center">
 <img src="Images/Large-Results.png" width="1000px"/>
