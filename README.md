@@ -19,9 +19,16 @@ Due to the pages and time limitation, it is impossible to introduce all SISR met
 ## Taxonomy
 
 <p align="center">
-<img src="Images/Framework.png" width="800px"/>
+<img src="Images/Framework.png" width="1000px"/>
 </p>
 
+## Datasets
+
+Benchmarks datasets for single-image super-resolution (SISR).
+
+<p align="center">
+<img src="Images/Datasets.png" width="1000px"/>
+</p>
 
 
 # SINGLE-IMAGE SUPER-RESOLUTION
@@ -46,7 +53,55 @@ Due to the pages and time limitation, it is impossible to introduce all SISR met
 
 ## Medical Image Super-Resolution
 
+## Depth Map Super-Resolution
+
+The depth map is an image or image channel that contains information relating to the distance of the surfaces of scene objects from a viewpoint. The use of depth information of a scene is essential in many applications such as autonomous navigation, 3D reconstruction, human-computer interaction, and virtual reality. However, depth sensors, such as Microsoft Kinect and Lidar, can only provide depth maps of limited resolutions. Hence, depth map super-resolution has drawn more and more attention recently. 
+
+[1] <a href="https://link.springer.com/chapter/10.1007/978-3-319-54190-7_22">Deep Depth Super-Resolution: Learning Depth Super-Resolution Using Deep Convolutional Neural Network</a> 
+
+[2] <a href="https://link.springer.com/chapter/10.1007/978-3-319-46487-9_17">Atgv-net: Accurate Depth Super-Resolution</a> 
+
+[3] <a href="https://link.springer.com/chapter/10.1007/978-3-319-46487-9_22">Depth Map Super-Resolution by Deep Multi-Scale Guidance</a> 
+
+[4] <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8443445">Deeply Supervised Depth Map Super-Resolution as Novel View Synthesis</a> 
+
+[5] <a href="https://openaccess.thecvf.com/content_ICCV_2019/papers/Voynov_Perceptual_Deep_Depth_Super-Resolution_ICCV_2019_paper.pdf">Perceptual Deep Depth Super-Resolution</a> 
+
+[6] <a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Song_Channel_Attention_Based_Iterative_Residual_Learning_for_Depth_Map_Super-Resolution_CVPR_2020_paper.pdf">Channel Attention based Iterative Residual Kearning for Depth Map Super-Resolution</a> 
+
 ## Stereo Image Super-Resolution
 
+The dual camera has been widely used to estimate depth information. Meanwhile, stereo imaging can also be applied in image restoration. In the stereo image pair, we have two images with disparity much larger than one pixel. Therefore, full use of these two images can enhance the spatial resolution. 
+
+[1] <a href="https://openaccess.thecvf.com/content_cvpr_2018/papers/Jeon_Enhancing_the_Spatial_CVPR_2018_paper.pdf">Enhancing the Spatial Resolution of Stereo Images Using A Parallax Prior</a> 
+
+[2] <a href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Learning_Parallax_Attention_for_Stereo_Image_Super-Resolution_CVPR_2019_paper.pdf">Learning Parallax Attention for Stereo Image Super-Resolution</a> 
+
+[3] <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9206116">Parallax Attention for Unsupervised Stereo Correspondence Learning</a> 
+
+[4] <a href="https://openaccess.thecvf.com/content_ICCVW_2019/papers/LCI/Wang_Flickr1024_A_Large-Scale_Dataset_for_Stereo_Image_Super-Resolution_ICCVW_2019_paper.pdf">Flickr1024: A Large-Scale Dataset for Stereo Image Super-Resolution</a> 
+
+[5] <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8998204">A Stereo Attention Module for Stereo Image Super-Resolution</a> 
+
+[6] <a href="https://openaccess.thecvf.com/content/CVPR2021W/NTIRE/papers/Wang_Symmetric_Parallax_Attention_for_Stereo_Image_Super-Resolution_CVPRW_2021_paper.pdf">Symmetric Parallax Attention for Stereo Image Super-Resolution</a> 
+
+[7] <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9382858">Deep Bilateral Learning for Stereo Image Super-Resolution</a>  
+
+[8] <a href="https://ojs.aaai.org//index.php/AAAI/article/view/6880">Stereoscopic Image Super-Resolution with Stereo Consistent Feature</a> 
+
+[9] <a href="https://arxiv.org/pdf/2106.00985.pdf">Feedback Network for Mutually Boosted Stereo Image Super-Resolution and Disparity Estimation</a> 
+
 # RECONSTRUCTION RESULTS
+
+PSNR/SSIM comparison of lightweight SISR models (the number of model parameters less than 1000K) on Set5 ($\times 4$), Set14  ($\times 4$), and Urban100 ($\times 4$). Meanwhile, the training datasets and the number of model parameters are provided. Sort by PSNR of Set5 in ascending order. Best results are highlighted.
+
+<p align="center">
+<img src="Images/Lightweight-Results.png" width="1000px"/>
+</p>
+
+PSNR/SSIM comparison of large SISR models (the number of model parameters more than 1M, M=million) on Set5 ($\times 4$), Set14 ($\times 4$), and Urban100 ($\times 4$). Meanwhile, the training datasets and the number of model parameters are provided. Sort by PSNR of Set5 in ascending order. Best results are highlighted.
+
+<p align="center">
+<img src="Images/Large-Results.png" width="1000px"/>
+</p>
 
