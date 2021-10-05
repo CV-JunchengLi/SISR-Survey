@@ -1,14 +1,12 @@
 # SISR-Survey
 
-### An investigation project for SISR.
+### An investigation project for SISR.  <a href="https://arxiv.org/abs/2109.14335">[Paper]</a> 
 
-### This repository is an official project of the paper "From Beginner to Master: A Survey for Deep Learning-based Single-Image Super-Resolution".
+### This repository is an official project of the paper "From Beginner to Master: A Survey for Deep Learning-based Single-Image Super-Resolution". 
 
 ## Purpose
 
 <font color='red'>Due to the pages and time limitation, it is impossible to introduce all SISR methods in the paper, and it is impossible to update the latest methods in time. Therefore, we use this project to assist our survey to cover more methods. This will be a continuously updated project! We hope it can help more researchers and promote the development of image super-resolution. Welcome more researchers to jointly maintain this project!</font>
-
-
 
 <p align="center">
 <img src="Images/SISR.png" width="400px"/>
@@ -31,8 +29,6 @@ Benchmarks datasets for single-image super-resolution (SISR).
 <p align="center">
 <img src="Images/Datasets.png" width="1000px"/>
 </p>
-
-
 # SINGLE-IMAGE SUPER-RESOLUTION
 
 ## Reconstruction Efficiency Methods
@@ -47,7 +43,57 @@ Benchmarks datasets for single-image super-resolution (SISR).
 
 ## Real-World SISR
 
+The degradation modes are complex and unknown in real-world scenarios, where downsampling is usually performed after anisotropic blurring and sometimes signal-dependent noise is added.  Recently, some new technologies have been proposed, such as unsupervised learning, self-supervised learning, zero-shot learning, meta-learning, blind SISR, and scale arbitrary SISR. In this part, we introduce the latter three methods due to their impressive foresight and versatility.
+
+### Blind SISR
+
+[1] <a href="https://openaccess.thecvf.com/content_cvpr_2018/papers/Zhang_Learning_a_Single_CVPR_2018_paper.pdf">Learning A Single Convolutional Super-Resolution Network for Multiple Degradations</a> 
+
+[2] <a href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang_Deep_Plug-And-Play_Super-Resolution_for_Arbitrary_Blur_Kernels_CVPR_2019_paper.pdf">Deep Plug-and-Play Super-Resolution for Arbitrary Blur Kernels</a> 
+
+[3] <a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Xu_Unified_Dynamic_Convolutional_Network_for_Super-Resolution_With_Variational_Degradations_CVPR_2020_paper.pdf">Unified Dynamic Convolutional Network for Super-Resolution with Variational Degradations</a> 
+
+[4] <a href="https://openaccess.thecvf.com/content/CVPR2021/papers/Hui_Learning_the_Non-Differentiable_Optimization_for_Blind_Super-Resolution_CVPR_2021_paper.pdf">Learning the Non-Differentiable Optimization for Blind Super-Resolution</a> 
+
+[5] <a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Zhang_Deep_Unfolding_Network_for_Image_Super-Resolution_CVPR_2020_paper.pdf">Deep Unfolding Network for Image Super-Resolution</a> 
+
+[6] <a href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Gu_Blind_Super-Resolution_With_Iterative_Kernel_Correction_CVPR_2019_paper.pdf">Blind Super-Resolution with Iterative Kernel Correction</a> 
+
+[7] <a href="https://arxiv.org/pdf/2010.02631.pdf">Unfolding the Alternating Optimization for Blind Super Resolution</a> 
+
+[8] <a href="https://openaccess.thecvf.com/content/CVPR2021/papers/Kim_KOALAnet_Blind_Super-Resolution_Using_Kernel-Oriented_Adaptive_Local_Adjustment_CVPR_2021_paper.pdf">KOALAnet: Blind Super-Resolution using Kernel-Oriented Adaptive Local Adjustment</a> 
+
+[9] <a href="https://openaccess.thecvf.com/content/CVPR2021/papers/Kim_KOALAnet_Blind_Super-Resolution_Using_Kernel-Oriented_Adaptive_Local_Adjustment_CVPR_2021_paper.pdf">KernelNet: A Blind Super-Resolution Kernel Estimation Network</a> 
+
+[10] <a href="https://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w13/Yuan_Unsupervised_Image_Super-Resolution_CVPR_2018_paper.pdf">Unsupervised Image Super-Resolution Using Cycle-in-Cycle Generative Adversarial Networks</a>  
+
+### Meta-Learning
+
+[1] <a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Soh_Meta-Transfer_Learning_for_Zero-Shot_Super-Resolution_CVPR_2020_paper.pdf">Meta-Transfer Learning for Zero-Shot Super-Resolution</a> 
+
+[2] <a href="https://link.springer.com/content/pdf/10.1007/978-3-030-58583-9_45.pdf">Fast Adaptation to Super-Resolution Networks via Meta-Learning</a> 
+
+[3] <a href="https://ieeexplore.ieee.org/abstract/document/9180081">Meta-USR: A Unified Super-Resolution Network for Multiple Degradation Parameters</a> 
+
+### Scale Arbitrary SISR
+
+[1] <a href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Hu_Meta-SR_A_Magnification-Arbitrary_Network_for_Super-Resolution_CVPR_2019_paper.pdf">Meta-SR: A Magnification-Arbitrary Network for Super-Resolution</a> 
+
+[2] <a href="https://ieeexplore.ieee.org/abstract/document/9180081">Meta-USR: A Unified Super-Resolution Network for Multiple Degradation Parameters</a> 
+
+[3] <a href="https://www.researchgate.net/profile/Longguang-Wang/publication/340523881_Learning_A_Single_Network_for_Scale-Arbitrary_Super-Resolution/links/60fc178b1e95fe241a85a2f9/Learning-A-Single-Network-for-Scale-Arbitrary-Super-Resolution.pdf">Learning A Single Network for Scale-Arbitrary Super-Resolution}</a> 
+
 ## Remote Sensing Image Super-Resolution
+
+With the development of satellite image processing, remote sensing has become more and more important. However, due to the limitations of current imaging sensors and complex atmospheric conditions, such as limited spatial resolution, spectral resolution, and radiation resolution, we are facing huge challenges in remote sensing applications. 
+
+[1] <a href="https://ieeexplore.ieee.org/abstract/document/8400496/">A New Deep Generative Network for Unsupervised Remote Sensing Single-Image Super-Resolution</a> 
+
+[2] <a href="https://www.mdpi.com/2072-4292/11/15/1817">Deep Residual Squeeze and Excitation Network for Remote Sensing Image Super-Resolution</a> 
+
+[3] <a href="https://ieeexplore.ieee.org/abstract/document/9151234">Remote Sensing Image Super-Resolution via Mixed High-order Attention Network</a> 
+
+[4] <a href="https://ieeexplore.ieee.org/abstract/document/9194276">Remote Sensing Image Super-Resolution Using Second-Order Multi-Scale Networks</a> 
 
 ## Hyperspectral Image Super-Resolution
 
@@ -141,6 +187,20 @@ The dual camera has been widely used to estimate depth information. Meanwhile, s
 
 [9] <a href="https://arxiv.org/pdf/2106.00985.pdf">Feedback Network for Mutually Boosted Stereo Image Super-Resolution and Disparity Estimation</a> 
 
+## Video Super-Resolution
+
+As an emerging medium, video has attracted increasing attention owing to its ability to carry more information. Specifically, the video consists of multiple images, and each frame is an image, so it can provide more scene information. However, it is difficult to obtain high-resolution video due to the limitations of the network transmission and device storage. Therefore, video super-resolution (VSR) technology is essential. For VSR, multiple frames provide much more scene information, thus full use of the inter-frame temporal dependency (e.g., motions, brightness, color changes) is beneficial for high-quality video reconstruction. 
+
+[1] <a href="https://openaccess.thecvf.com/content_cvpr_2017/papers/Caballero_Real-Time_Video_Super-Resolution_CVPR_2017_paper.pdf">Real-Time Video Super-Resolution with Spatio-Temporal Networks and Motion Compensation</a> 
+
+[2] <a href="https://openaccess.thecvf.com/content_ICCV_2017/papers/Liu_Robust_Video_Super-Resolution_ICCV_2017_paper.pdf">Robust Video Super-Resolution with Learned Temporal Dynamics</a> 
+
+[3] <a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Tian_TDAN_Temporally-Deformable_Alignment_Network_for_Video_Super-Resolution_CVPR_2020_paper.pdf">TDAN: Temporally-Deformable Alignment Network for Video Super-Resolution</a> 
+
+[4] <a href="https://link.springer.com/chapter/10.1007/978-3-030-58610-2_38">Video Super-Resolution with Recurrent Structure-Detail Network</a> 
+
+[5] <a href="https://arxiv.org/abs/2106.06847">Video Super-Resolution Transformer</a> 
+
 # RECONSTRUCTION RESULTS
 
 PSNR/SSIM comparison of lightweight SISR models (the number of model parameters less than 1000K) on Set5 (x4), Set14 (x4), and Urban100 (x4). Meanwhile, the training datasets and the number of model parameters are provided. Sort by PSNR of Set5 in ascending order. Best results are highlighted.
@@ -154,3 +214,14 @@ PSNR/SSIM comparison of large SISR models (the number of model parameters more t
 <p align="center">
 <img src="Images/Large-Results.png" width="1000px"/>
 </p>
+
+
+```
+@article{li2021beginner,
+  title={From Beginner to Master: A Survey for Deep Learning-based Single-Image Super-Resolution},
+  author={Li, Juncheng and Pei, Zehua and Zeng, Tieyong},
+  journal={arXiv preprint arXiv:2109.14335},
+  year={2021}
+}
+```
+
